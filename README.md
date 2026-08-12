@@ -127,12 +127,13 @@ Gizli veya excluded olan collection/objeleri geçici olarak açar, export sonras
 
 ## Lisans
 
-Bu eklentiler `bpy` kullandığı için GPL kapsamındadır. Depoda **GPL-3.0** tam metni
-`LICENSE` dosyasında bulunmalıdır:
+GPL-3.0-or-later — tam metin için [`LICENSE`](LICENSE) dosyasına bakın.
 
-```bash
-curl -L -o LICENSE https://www.gnu.org/licenses/gpl-3.0.txt
-```
+Blender'ın Python API'si (`bpy`) GPL kapsamında olduğundan, onu kullanan ve dağıtılan
+eklentiler de GPL uyumlu bir lisansla yayınlanmak zorundadır.
+
+Katkılara açığım: hata bildirimi veya öneri için
+[issue açabilirsiniz](https://github.com/cankutk/ck-blender-tools/issues).
 
 ---
 
