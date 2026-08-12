@@ -1,0 +1,13 @@
+# Satır sonlarını depoda her zaman LF olarak sakla, Windows'ta CRLF olarak checkout et.
+# Böylece farklı işletim sistemlerinden katkı gelince sahte "tüm dosya değişti" diff'i oluşmaz.
+* text=auto eol=lf
+
+*.py   text eol=lf
+*.md   text eol=lf
+*.toml text eol=lf
+
+# İkili dosyalar (ileride ekran görüntüsü eklersen)
+*.png  binary
+*.jpg  binary
+*.gif  binary
+*.blend binary

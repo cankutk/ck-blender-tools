@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Blender
+*.blend1
+*.blend2
+*.blend@
+
+# İşletim sistemi
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# Editör
+.vscode/
+.idea/
+*.swp
+
+# Yerel test dosyaları / export çıktıları
+/test/
+/exports/
+*.fbx
